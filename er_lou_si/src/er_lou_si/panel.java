@@ -82,7 +82,7 @@ public class panel extends GameObject {
 			ArrayList<block> blocks=new ArrayList<block>();
 			if(x<0||x>=10) {}
 			else if(y<5||y>20) {}
-			else if(b_list[x][y].same_block(blocks)>=2) {
+			else if(b_list[x][y].same_block(blocks)>=4) {
 				map.sorce=map.sorce+blocks.size();
 				for(int i=0;i<blocks.size();i++) {
 					c_block c_block=blocks.get(i).c_block;
